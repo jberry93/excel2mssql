@@ -10,3 +10,9 @@ Depends on the following crates:
 - [`tokio`](https://github.com/tokio-rs/tokio) for running async operations
 - [`tokio-util`](https://github.com/tokio-rs/tokio) acts as an adapter between a `tokio` stream and `tiberius`
 - [`clap`](https://github.com/clap-rs/clap) for handling CLI arguments
+
+## Development
+
+Try it with:
+
+- `cargo run -- --help`

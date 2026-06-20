@@ -1,0 +1,36 @@
+# Rust build output
+/target/
+
+# Rust compiler backup files
+**/*.rs.bk
+
+# Local environment/config
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
+
+# VS Code local settings
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# JetBrains IDEs
+.idea/
+
+# Local test/import files
+*.xlsx
+*.xls
+*.xlsm
+*.csv
+
+# Local database/export artifacts
+*.bak
+*.bacpac
+*.sql
+*.dump
